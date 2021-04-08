@@ -10,12 +10,18 @@
   text-align: center;
 }
 
-img {
-  height: 200px;
-}
+/* common */
 
 h1 {
   text-align: center;
+}
+
+h3 {
+  margin: 20px;
+}
+
+p {
+  margin: 10px;
 }
 
 section {
@@ -28,18 +34,20 @@ section {
   padding: 30px
 }
 
+img {
+  height: 200px;
+}
+
 .grey {
   background-color: #f9f9f9;
 }
-
-h3 {
-  margin: 20px;
-}
-
-p {
-  margin: 10px;
+@media screen and (max-width: 767px) {
+  .grey {
+    background-color: #f2f2cd;
+  }
 }
 
 .top-margin {
   margin-top: 80px;
 }
+/* /common */
